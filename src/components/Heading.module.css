@@ -3,5 +3,5 @@
 }
 
 .cyan {
-  color: cyan;
+  color: var(--primary);
 }

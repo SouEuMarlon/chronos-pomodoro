@@ -28,7 +28,7 @@ function App() {
             <DefaultInput
               type='text'
               id='input'
-              label=''
+              label='Task'
               placeholder='Digite algo'
             />
           </div>

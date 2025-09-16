@@ -1,3 +1,5 @@
+import { type TaskStateModel } from './TaskStateModel';
+
 export type TaskModel = {
   id: string;
   name: string;
@@ -5,5 +7,5 @@ export type TaskModel = {
   startDate: number;
   completeDate: number | null; // When the task was completed
   interruptedDate: number | null; // When the task was interrupted
-  type: 'workTime' | 'shortBreakTime' | 'longBreakTime';
+  type: keyof TaskStateModel['config']; // 'workTime' | 'shortBreakTime' | 'longBreakTime'
 };

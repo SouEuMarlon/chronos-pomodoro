@@ -2,7 +2,7 @@ import './styles/theme.css';
 import './styles/global.css';
 // import { AboutPomodoro } from './pages/AboutPomodoro';
 import { Home } from './pages/Home';
-import { TaskContextProvider } from './contexts/TaskContext/taskContextProvider';
+import { TaskContextProvider } from './contexts/TaskContext/TaskContextProvider';
 // import { NotFound } from './pages/NotFound';
 
 function App() {
